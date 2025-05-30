@@ -1,0 +1,12 @@
+[project]
+name = "asgi-apps"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi-mcp>=0.3.4",
+]
+
+[tool.uv.workspace]
+members = ["1", "2", "3"]
